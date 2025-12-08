@@ -1,0 +1,38 @@
+# HECW2 Stability Analysis - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Structural biology
+biopython>=1.83
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Statistical analysis
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Data handling
+openpyxl>=3.1.0        # Excel file support
+xlsxwriter>=3.1.0      # Excel writing
+
+# Utilities
+tqdm>=4.65.0           # Progress bars
+pathlib2>=2.3.7        # Path handling (Python <3.4 compatibility)
+
+# Optional: Jupyter notebook support
+# jupyter>=1.0.0
+# ipykernel>=6.25.0
+
+# Optional: Structure visualization (requires PyMOL installation)
+# pymol-open-source>=2.5.0
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.1.0

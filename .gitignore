@@ -1,0 +1,122 @@
+# HECW2 Stability Analysis - Git Ignore
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# =============================================================================
+# Jupyter Notebooks
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =============================================================================
+# IDE and Editors
+# =============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# OS Generated
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# =============================================================================
+# Large Data Files (not tracked in git)
+# =============================================================================
+# AlphaFold3 raw output (large CIF files)
+*.cif
+fold_hecw2_*/
+
+# FoldX intermediate files
+analysis/foldx/*/WT_*.pdb
+analysis/foldx/*/*.pdb
+analysis/foldx/*/buildmodel.log
+analysis/foldx/*/stability.log
+
+# Rosetta intermediate files
+analysis/rosetta/relaxed_backgrounds/
+analysis/rosetta/cartesian_ddg/results/*/input.pdb
+analysis/rosetta/cartesian_ddg/results/*/*.log
+
+# =============================================================================
+# Temporary and Log Files
+# =============================================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+temp/
+tmp/
+
+# =============================================================================
+# FoldX Specific
+# =============================================================================
+rotabase.txt
+*.fxout
+!data/results/*.fxout
+
+# =============================================================================
+# Rosetta Specific
+# =============================================================================
+*.ddg
+!data/results/*.ddg
+score.sc
+*.silent
+*.pdb.gz
+
+# =============================================================================
+# Keep These Files
+# =============================================================================
+# Ensure key result files are tracked
+!data/results/*.csv
+!data/structures/seeds/*.pdb
+!data/variants/*.csv
+
+# =============================================================================
+# Documentation builds
+# =============================================================================
+docs/_build/
+site/
