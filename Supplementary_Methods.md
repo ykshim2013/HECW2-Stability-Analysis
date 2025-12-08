@@ -686,7 +686,7 @@ p.Ser1504Tyr,10.89,1.78,1.23,3,Pathogenic
 
 ### 7.3 Reproducibility Checklist
 
-- [ ] Clone repository: `git clone https://github.com/[username]/HECW2-stability-analysis.git`
+- [ ] Clone repository: `git clone https://github.com/ykshim2013/HECW2-Stability-Analysis.git`
 - [ ] Install dependencies: `pip install -r requirements.txt`
 - [ ] Download AlphaFold3 structures (if not included)
 - [ ] Install FoldX 5.1 (requires academic license)
