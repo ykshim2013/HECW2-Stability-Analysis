@@ -13,7 +13,6 @@ This repository contains the computational pipeline and analysis scripts for rep
 - **AlphaFold3** structure prediction and quality assessment
 - **FoldX 5.1** stability predictions (BuildModel)
 - **Rosetta 2023.49** stability predictions (cartesian_ddG)
-- Statistical analysis scripts
 
 **Associated Publication:**
 > Shim YK. HECW2 Pathogenic Variants Exhibit Mechanistic Heterogeneity Revealed by Dual-Method Computational Stability Analysis. *Frontiers in Neurology*. 2025. (in revision)
@@ -27,7 +26,7 @@ HECW2-stability-analysis/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-├── Supplementary_Methods.md          # Detailed protocols
+├── Supplementary_Methods.md
 │
 ├── data/
 │   └── structures/
@@ -52,11 +51,9 @@ HECW2-stability-analysis/
 │   │   └── parse_rosetta_ddg.py          # Parse mutations.ddg files
 │   │
 │   └── 04_analysis/
-│       ├── combine_rosetta_foldx.py      # Merge dual-method results
-│       └── statistical_analysis.py       # Mann-Whitney, ROC, effect sizes
+│       └── combine_rosetta_foldx.py      # Merge dual-method results
 │
-└── docs/
-    └── CHANGELOG.md
+└── Supplementary_Methods.md              # Detailed protocols
 ```
 
 ---
@@ -102,9 +99,6 @@ python3 scripts/01_structure_analysis/select_diverse_seeds.py
 
 # Step 4: Parse and combine results
 python3 scripts/04_analysis/combine_rosetta_foldx.py
-
-# Step 5: Statistical analysis
-python3 scripts/04_analysis/statistical_analysis.py
 ```
 
 ---
