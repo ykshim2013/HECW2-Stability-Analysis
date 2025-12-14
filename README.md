@@ -15,7 +15,7 @@ This repository contains the computational pipeline and analysis scripts for rep
 - **Rosetta 2023.49** stability predictions (cartesian_ddG)
 
 **Associated Publication:**
-> Shim YK. HECW2 Pathogenic Variants Exhibit Mechanistic Heterogeneity Revealed by Dual-Method Computational Stability Analysis. *Frontiers in Neurology*. 2025. (in submission)
+> Shim YK. HECW2 Pathogenic Variants Exhibit Mechanistic Heterogeneity Revealed by Dual-Method Computational Stability Analysis. *Frontiers in Neurology*. 2025. (In submission)
 
 ---
 
